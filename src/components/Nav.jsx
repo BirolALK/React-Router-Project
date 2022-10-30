@@ -19,9 +19,13 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 me-3 mb-lg-0">
             <li className="nav-item">
-              <Link to="/" className="nav-link active" aria-current="page">
+              <NavLink 
+              style={({ isActive }) => ({
+                color: isActive && "red",
+              })} 
+              to="/" className="nav-link active" aria-current="page">
                 Home
-              </Link>
+              </NavLink>
             </li>
 
             <li className="nav-item">
