@@ -17,6 +17,9 @@ const PersonDetail = () => {
 
   const [person, setPerson] = useState("");
   const [error, setError] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+
   useEffect(() => {
     fetch(`https://reqres.in/api/users/${id}`)
     .then((res) => {
