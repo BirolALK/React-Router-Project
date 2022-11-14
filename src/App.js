@@ -3,7 +3,6 @@ import Nav from "./components/Nav";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import People from "./pages/People";
-import NotFound from "./pages/NotFound";
 import {Routes, Route, Navigate } from "react-router-dom";
 import Paths from "./pages/Paths";
 import PersonDetail from "./pages/PersonDetail";
