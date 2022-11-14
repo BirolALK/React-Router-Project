@@ -17,7 +17,7 @@ const PersonDetail = () => {
 
   const [person, setPerson] = useState("");
   const [error, setError] = useState(false);
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
 
 
   useEffect(() => {
@@ -30,7 +30,7 @@ const PersonDetail = () => {
      return res.json()
     })
     .then((data) => setPerson(data.data))
-    .catch((err) => console.log(err));
+    .catch((err) => console.log(err))
   }, []);
 
   console.log(person);
