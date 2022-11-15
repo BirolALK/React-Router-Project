@@ -6,11 +6,9 @@ const About = () => {
         <div className="col-sm-12 col-md-6 col-lg-4">
           <i className="fas fa-globe-americas fa-2x"></i>
           <h4>Online Courses</h4>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Praesentium veniam tempore odio, distinctio neque enim eveniet
-            consequatur magnam vero ut.
-          </p>
+            consequatur magnam vero ut.</p>
         </div>
         <div className="col-sm-12 col-md-6 col-lg-5">
           <i className="fas fas fa-headset fa-2x"></i>
