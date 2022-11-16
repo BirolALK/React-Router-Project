@@ -31,7 +31,7 @@ const PersonDetail = () => {
     })
     .then((data) => setPerson(data.data))
     .catch((err) => console.log(err))
-  }, []);
+  },[]);
 
   console.log(person);
 
